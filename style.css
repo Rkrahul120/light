@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(72, 71, 71);
+    
+}
+.dhpadhpa{
+  background-color:black;
+width: 700px;
+border-left: 6px solid violet;
+border-right: 6px solid violet;
+border-top: 2px solid violet;
+border-bottom: 2px solid violet;
+height: 500px;
+display: flex;
+justify-content: center;
+border-radius: 15px;
+animation-name: change;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes change {
+    from{border-left: 6px solid violet;}
+    to{border-left: 6px solid orange;}
+    from{border-right: 6px solid violet;}
+    to{border-right: 6px solid orange;}
+    from{border-top: 2px solid violet;}
+    to{border-top: 2px solid orange;}
+    from{border-bottom: 2px solid violet;}
+    to{border-bottom: 2px solid orange;}
+}
+#image{
+    padding-top: 100px;
+}
+
+  #button{
+    height: 60px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    background-color: rgb(134, 253, 253);
+  }
+  #button:hover{
+    background-color: orangered;
+    color: antiquewhite;
+  }
+  #button:active{
+    background-color: rgb(134, 253, 253);
+    color: black;
+  }
